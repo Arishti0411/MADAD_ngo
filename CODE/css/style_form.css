@@ -1,0 +1,141 @@
+.login_div, .register_div{
+	margin:0 5%;
+	width: 400px;
+	display:inline-table;
+}
+
+.donation_div{
+	width: 900px;
+	margin: 0px auto;
+}
+
+.donation_div hr{
+	border:2px solid #ddd;
+}
+
+.donation_div div{
+	width:800px;
+	margin:0px auto;
+}
+
+.donation_div div a{
+	font-size:3em;
+	text-decoration:none;
+	color:#666;
+	text-align:center;
+	padding:30px 0px;
+	font-family: 'Conv_BreeSerif-Regular';
+	width:230px;
+	letter-spacing:1px;
+	margin:20px 17px;
+	box-shadow:0px 0px 1px #dff;
+	background:#fff;
+	display:inline-block;
+}
+.donation_div div a:hover{
+	background: #085180;
+	cursor:pointer;
+	color:#fff;
+}
+
+.register_div h3,
+.login_div h3,
+.donation_div h3{
+	font-size:2em;
+	font-family: 'Conv_BreeSerif-Regular';
+	color: #085180;
+	text-transform: uppercase;
+}
+
+form.user{
+	margin:30px 0;
+	width:auto;
+}
+
+form.user label,form.user label{
+	width: 100%;
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	display:block;
+}
+
+form.user input[type="email"],
+form.user input[type="text"],
+form.user input[type="password"],
+form.user textarea,
+form.user select{
+	font-size: 15px;
+	padding: 8px;
+	width: 350px;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: .8px;
+	display: block;
+	margin: 15px 0px;
+}
+form.user input[type="submit"],a.back_button{
+	border: none;
+	color: #085180;
+	cursor: pointer;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+form.user input[type="submit"]:hover{
+	border-right: solid 1px;
+}
+
+form.user input[type="submit"].forgot{
+	float:right;
+	margin-right:10px;
+}
+a.back_button{
+	float:left;
+	background:#ddd;
+	text-decoration:none;
+}
+
+a.back_button:hover{
+	border-left: solid 1px;
+}
+
+form.user a{
+	color:#085180;
+	padding-right:10px;
+}
+
+label.forgot{
+	text-align:right;
+}
+
+form.user textarea{
+	resize:none;
+}
+
+form.user select{
+	width:auto;
+}
+
+div.pickup{
+	padding-bottom:30px;
+}
+
+div.pickup span{
+	width:40%;
+	margin-top:10px;
+	display:block;
+}
+
+div.pickup span input{
+	padding:0px;
+}
+
+div.pickup span label{
+	width:auto;
+	display:inline;
+	padding:0px;
+}
