@@ -1,0 +1,41 @@
+select{
+	font-size: 1.5em;
+	padding: 8px;
+	background: #eee;
+	border:none;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: .8px;
+	margin: 15px 30px 0 0;
+}
+table{
+			margin: 0px auto;
+			width: 80%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		hr{
+			border:2px solid;
+		}
+		th{
+			font-size:1.5em;
+			padding:10px;
+			width: 33%;
+			border-bottom:5px solid;
+			text-align:center;
+		}
+		td{
+			padding:5px;
+			border-bottom: 1px solid;
+			font-size:1.5em;
+			text-align:center;
+		}
+		button{
+			border:none;
+			padding:10px;
+			color: #085180;
+			cursor: pointer;
+			font-family: 'Conv_BreeSerif-Regular';
+			font-size: 18px;
+			margin-right:20px;
+			margin-bottom:30px;
+		}

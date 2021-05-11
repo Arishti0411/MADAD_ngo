@@ -1,0 +1,960 @@
+
+::-webkit-scrollbar {display:none;}
+::-moz-scrollbar {display:none;}
+::-o-scrollbar {display:none;}
+::-google-ms-scrollbar {display:none;}
+::-khtml-scrollbar {display:none;}
+
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	color: #7e868c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	min-width: 940px;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Conv_BreeSerif-Regular';
+	src: url('../fonts/BreeSerif-Regular.eot');
+	src: url('../fonts/BreeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/BreeSerif-Regular.woff') format('woff'),
+	url('../fonts/BreeSerif-Regular.ttf') format('truetype'),
+	url('../fonts/BreeSerif-Regular.svg#Conv_BreeSerif-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+p {
+	line-height: 24px;
+	margin: 0;
+}
+
+p a,
+#body div#gallery div.body div ul li a,
+#body div#about h1 a {
+	color: #7e868c;
+}
+p a:hover,
+#body div#about div.aside div p span a:hover,
+#body div.header div div.section h2 a:hover,
+#body div#gallery div.header div h2 a:hover,
+#body div#gallery div.body div ul li a:hover,
+#body div#login div h1 a:hover,
+#body div#about h1 a:hover {
+	color: #44505a;
+}
+#header {
+	margin: 0px auto;
+	width: 1100px;
+	background: url(../images/bg-header.png) repeat-x;
+	height: 169px;
+}
+#header div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1100px;
+}
+#header div a#logo {
+	display: block;
+	float: left;
+	width: inherit;
+}
+#header div a#logo img {
+	display: block;
+	margin: 10px 0 0;
+}
+#header div ul {
+	background: url(../images/bg-navigation.png) repeat-x;
+	float: right;
+	height: 53px;
+	list-style: none;
+	margin: 22px 0 0 99px;
+	overflow:hidden;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#header div ul li {
+	float: left;
+	height: 53px;
+}
+#header div ul li a {
+	color: #dc7b14;
+	display: inline-block;
+	font-family: 'Conv_BreeSerif-Regular';
+	line-height: 53px;
+	text-align: center;
+	text-decoration: none;	
+	text-transform: uppercase;
+	padding: 0px 20px;
+	width: auto;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+}
+#header div ul li a:hover{
+	background: url(../images/bg-menuhover.png) repeat-x;
+}
+#header div ul li.current a {
+	background: url(../images/bg-menuselected.png) repeat-x;
+	color: #085180;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+#header div ul li.log_btn a {
+	color: #ff0000;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+#header div ul li.log_btn a:hover {
+	background: #FF0000;
+	color: #ffffff;
+	text-shadow: none;
+}
+#body {
+	margin:0px auto;
+	width:1100px;
+	background: #f1f2f2 url(../images/bg-content.png) repeat-x left bottom;
+	padding: 11px 0 20px;
+}
+#body div.header {
+	height: 409px;
+}
+#body div.header div {
+	margin: 0 auto;
+	position: relative;
+	width: 940px;
+}
+#body div.header div img {
+	display: block;
+	right: 0;
+	position: absolute;
+	top: 22px;
+}
+#body div.header div div#tagline {
+	height: 165px;
+	margin: 0;
+	width: 465px;
+}
+#body div.header div div#tagline h1 {
+	color: #ed2a45;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 70px;
+	text-align:center;
+	font-weight: normal;
+	line-height: 80px;
+	margin: 0;
+	padding: 35px 0 0;
+	text-transform: uppercase;
+}
+#body div.header div div#tagline h3 {
+	color: #be2237;
+	font-size: 12px;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body div.header div div.section {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 23px 0 0;
+	width: 520px;
+}
+#body div.header div div.section h2,
+#body div#gallery div.header div h2,
+#body div#gallery div.body div h2,
+#body div#newsblog div.aside div h2 {
+	color: #dc7b14;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div.header div div.section h2 a,
+#body div#gallery div.header div h2 a {
+	color: #dc7b14;
+}
+#body div.header div div.section p,
+#body div#gallery div.header div p {
+	color: #a67d35;
+}
+#body div.header div div.section > a {
+	background: url(../images/interface.png) no-repeat 0 -62px;
+	color: #dc7b14;
+	display: inline-block;
+	height: 37px;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 15px;
+	line-height: 37px;
+	margin: 17px 0 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 200px;
+}
+#body div.header div div.section > a:hover {
+	background: url(../images/interface.png) no-repeat 0 -99px;
+	color: #d06405;
+	text-shadow: 1px 1px 1px #fdf5cb;
+}
+#body div.header div div.section > a.first {
+	margin: 17px 20px 0 0;
+}
+#body div#gallery div.body div h2 a:hover,
+#body div#newsblog div.aside div h2 a:hover,
+#body div#newsblog div.aside ul li h2 a:hover,
+#body div#newsblog div.sidebar div ul li a:hover {
+	text-decoration: underline;
+}
+#body div.body {
+	background: #085180;
+	border-top: 1px solid #00c6ff;
+	margin: 23px 0 0;
+	padding: 23px 0 45px;
+}
+#body div.body div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 940px;
+}
+#body div.body div div.figure {
+	float: left;
+	position: relative;
+	width: 462px;
+}
+#body div.body div div.figure a img,
+#body div.body div div.help a img {
+	border: 1px solid #00c6ff;
+	display: block;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1;
+}
+#body div.body div div.help a img {
+	height: 100px;
+	width: 190px;
+	margin: 7px 0;
+}
+#body div.body div div.figure a img:hover,
+#body div.body div div.help a img:hover,
+#body div#newsblog div.aside div a.figure img:hover,
+#body div#login div:first-child div.sidebar div:first-child a img:hover {
+	filter: alpha(opacity=90);/* Needed for IE8 and old versions */
+	opacity: 0.9;
+}
+#body div.body div div.figure h2,
+#body div#login div:first-child div.sidebar div:first-child h2 {
+	background: url(../images/bg-pink.png) repeat-x;
+	bottom: 30px;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 22px;
+	font-weight: normal;
+	height: 50px;
+	left: 1px;
+	line-height: 49px;
+	margin: 0;
+	position: absolute;
+	text-indent: 20px;
+	width: 460px;
+}
+#body div.body div div.figure h2 a,
+#body div#login div:first-child div.sidebar div:first-child h2 a {
+	color: #e6e6e6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body div.body div div.figure h2 a:hover,
+#body div#login div:first-child div.sidebar div:first-child h2 a:hover {
+	color: #ffffff;
+}
+#body div.body div div.news {
+	float: left;
+	margin: 0 0 0 19px;
+	padding: 12px 10px 0;
+	width: 200px;
+}
+#body div.body div div.news h2,
+#body div.body div div.help h2,
+#body div#login div:first-child div.sidebar div h2 {
+	color: #00ffd8;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div.body div div.news ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#body div.body div div.news ul li {
+	border-top: 1px solid #044975;
+	padding: 14px 0;
+}
+#body div.body div div.news ul li:first-child {
+	border: none;
+	padding: 0 0 14px;
+}
+#body div.body div div.news ul li span.date,
+#body div#login div:first-child div.sidebar div span.date {
+	color: #679abb;
+	font-size: 12px;
+	line-height: 24px;
+}
+#body div.body div div.news ul li h3,
+#body div.body div div.help h3,
+#body div#login div:first-child div.sidebar div h3 {
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+}
+#body div.body div div.news ul li h3 a,
+#body div.body div div.help h3 a,
+#body div#login div:first-child div.sidebar div h3 a {
+	color: #74c4d4;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body div.body div div.help h3{
+	height:22px;
+}
+#body div.body div div.news ul li h3 a:hover,
+#body div.body div div.help h3 a:hover,
+#body div#login div:first-child div.sidebar div h3 a:hover {
+	text-decoration: underline;
+}
+#body div.body div div.news ul li p,
+#body div.body div div.help p,
+#body div#login div:first-child div.sidebar div p {
+	color: #679abb;
+	float: none;
+	padding: 0;
+	width: auto;
+}
+#body div.body div div.help p{
+	height: 130px;
+}
+#body div.body div div.news span.link,
+#body div.body div div.help span.link,
+
+#body div.body div div.help span.link,
+#body div#login div:first-child div.sidebar div span.link {
+	margin: 24px auto 0;
+}
+#body div.body div div.news span.link a,
+#body div.body div div.help span.link a,
+#body div#login div:first-child div.sidebar div span.link a {
+	color: #085180;
+	border-radius: 0 0 3px 3px;
+	display: block;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#body div.body div div.news span.link a,
+#body div.body div div.help span.link a,
+#body div#login div:first-child div.sidebar div span.link a {
+	background: url(../images/bg-white.png) repeat-x;
+	width: 100px;
+}
+#body div.body div div.help span.link a:hover,
+#body div.body div div.news span.link a:hover,
+#body div#login div:first-child div.sidebar div span.link a:hover {
+	background: url(../images/bg-lightblue.png) repeat-x;
+}
+#footer div form input.send:hover {
+	background: url(../images/interface.png) no-repeat 0 -26px;
+}
+#body div#gallery div.footer a:hover {
+	color: #073959;
+}
+#body div.body div div.help {
+	float: left;
+	padding: 12px 9px 0;
+	width: 202px;
+	height: 350px;
+}
+#body div#about,
+#body div#gallery,
+#body div#login,
+#body div#newsblog {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 940px;
+}
+#body div#about h1,
+#body div#login div h1 {
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 20px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body div#about div.aside {
+	float: left;
+	width: 700px;
+}
+#body div#about div.aside div {
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	margin: 23px 0 0;
+	padding: 18px 19px;
+}
+#body div#about div.aside div h2,
+#body div#about div.sidebar h2 {
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div#about div.aside div p {
+	padding: 25px 0 0;
+}
+#body div#about div.aside div p span {
+	color: #085180;
+	display: block;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 16px;
+	line-height: 24px;
+}
+#body div#about div.aside div p span a,
+#body div#about h1 a,
+#body div#login div h1 a {
+	color: #085180;
+}
+#body div#about div.aside div p span a:hover {
+	color: #052f68;
+}
+#body div#about div.sidebar {
+	float: right;
+	margin: 23px 0 0;
+	width: 220px;
+}
+#body div#about div.sidebar h2 {
+	padding: 15px 0 5px;
+}
+#body div#about div.sidebar p {
+	padding: 0 0 22px;
+}
+#body div#gallery div.header {
+	background: #fff6c2;
+	border: 1px solid #ffe801;
+	height: auto;
+	overflow: hidden;
+	padding: 23px 19px;
+}
+#body div#gallery div.header div {
+	float: left;
+	margin: 0;
+	padding: 20px 17px 0 0;
+	width: 420px;
+}
+#body div#gallery div.header div h2 {
+	font-size: 18px;
+	padding: 0 0 5px;
+}
+#body div#gallery div.header img {
+	border: 1px solid #ffe801;
+	display: block;
+	float: right;
+}
+#body div#gallery div.body {
+	background: none;
+	border: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 35px 0 0;
+}
+#body div#gallery div.body div {
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	float: left;
+	margin: 0 0 0 20px;
+	min-height: 311px;
+	padding: 18px 19px;
+	width: 260px;
+}
+#body div#gallery div.body div h2 {
+	color: #085180;
+	font-size: 16px;
+}
+#body div#newsblog div.aside div h2 {
+	font-size: 16px;
+}
+#body div#newsblog div.aside div h2 a {
+	color: #085180;
+	text-decoration: none;
+}
+#body div#gallery div.body div:first-child {
+	margin: 0;
+}
+#body div#gallery div.body div ul {
+	list-style: disc inside;
+	margin: 0;
+	padding: 0;
+}
+#body div#gallery div.body div ul li {
+	line-height: 24px;
+}
+#body div#gallery div.footer {
+	background: #085180;
+	border: 1px solid #00c6ff;
+	color: #00c6ff;
+	margin: 35px 0 0;
+	overflow: hidden;
+	padding: 0 19px;
+}
+#body div#gallery div.footer p {
+	color: #74c4d4;
+	float: left;
+	font-family: 'Conv_BreeSerif-Regular';
+	padding: 16px 0 0;
+	text-transform: uppercase;
+	width: 619px;
+}
+#body div#gallery div.footer > a {
+	background: url(../images/bg-lightblue2.png) repeat-x;
+	border-radius: 3px;
+	color: #085180;
+	display: block;
+	float: right;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 30px;
+	height: 59px;
+	line-height: 58px;
+	margin: 23px 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #74cddf;
+	width: 240px;
+}
+#body div#login div:first-child {
+	background: none;
+	height: auto;
+	padding: 0;
+}
+#body div#login div:first-child div.aside {
+	background: #fff6c2;
+	border: 1px solid #ffe801;
+	float: left;
+	margin: 0;
+	padding: 22px 19px 17px;
+	width: 580px;
+}
+#body div#login div:first-child div.aside div:first-child {
+	padding: 0 0 23px;
+	width: auto;
+}
+#body div#login div:first-child div.aside div:first-child h1 {
+	color: #dc7b14;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 0 20px;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+#body div#login div:first-child div.aside div:first-child p {
+	color: #A67D35;
+	float: none;
+	padding: 0;
+	width: auto;
+}
+#body div#login div:first-child div.aside > div > p a,
+#body div#login div:first-child div.aside div div p a,
+#body div#gallery div.header div p a {
+	color: #a67d35;
+}
+#body div#login div:first-child div.aside > div > p a:hover,
+#body div#login div:first-child div.aside div div p a:hover,
+#body div#gallery div.header div p a:hover {
+	color: #9c550f;
+}
+#body div#login div:first-child div.aside > div {
+	float: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+#body div#login div:first-child div.aside div p {
+	color: #A67D35;
+	float: none;
+	padding: 0;
+	width: auto;
+}
+#body div#login div:first-child div.aside > div > p {
+	float: left;
+	padding: 0 20px 0 0;
+	width: 260px;
+}
+#body div#login div:first-child div.aside div div {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 260px;
+}
+#body div#login div:first-child div.aside div div img {
+	border: 1px solid #ffe801;
+	display: block;
+	margin: 5px 0 7px;
+	position: static;
+	top: 0;
+}
+#body div#login div:first-child div.sidebar {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	position:static;
+}
+#body div#login div:first-child div.sidebar div:first-child {
+	background: none;
+	border: none;
+	height: auto;
+	margin: 0 0 18px;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#body div#login div:first-child div.sidebar div:first-child h2 {
+	bottom: 9px;
+	width: 298px;
+}
+#body div#login div:first-child div.sidebar div:first-child a img {
+	border: 1px solid #d9d9d9;
+	display: block;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1;
+}
+#body div#login div:first-child div.sidebar div {
+	background: #085180;
+	border: 1px solid #00c6ff;
+	float: none;
+	height: 266px;
+	margin: 0;
+	padding: 20px 20px 0;
+	width: auto;
+}
+#body div#login div:first-child div.sidebar div h2 {
+	position: static;
+}
+#body div#login > div {
+	overflow: hidden;
+	padding: 30px 0 0;
+}
+#body div#login div h1 {
+	padding: 0 0 41px;
+}
+#body div#login div p {
+	float: left;
+	padding: 0 5px 0 0;
+	width: 455px;
+}
+#body div#login div div {
+	float: left;
+	margin: 0 0 0 20px;
+	width: 220px;
+}
+#body div#login div div p {
+	float: none;
+	padding: 0;
+	width: auto;
+}
+#body div#login div div h3 {
+	color: #085180;
+}
+#body div#login div div h3,
+#body div#newsblog div.aside ul li h2 {
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div#login div div h3 a,
+#body div#newsblog div.aside ul li h2 a {
+	color: #085180;
+	text-decoration: none;
+}
+#body div#login div div h3 a:hover,
+#body div#newsblog div.aside ul li h3 a:hover {
+	text-decoration: underline;
+}
+#body div#newsblog {
+	padding: 36px 0 0;
+}
+#body div#newsblog div.aside {
+	float: left;
+	width: 640px;
+}
+#body div#newsblog div.aside div {
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	overflow: hidden;
+	padding: 23px 19px;
+	width: 580px;
+}
+#body div#newsblog div.aside div span.date,
+#body div#newsblog div.aside ul li span.date {
+	display: block;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 0 7px;
+}
+#body div#newsblog div.aside ul li span.date {
+	padding: 0;
+}
+#body div#newsblog div.aside div a.figure {
+	display: block;
+	float: left;
+}
+#body div#newsblog div.aside div a.figure img {
+	border: 1px solid #d9d9d9;
+	filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+	opacity: 1;
+}
+#body div#newsblog div.aside div p {
+	float: left;
+	margin: -5px 0 0 21px;
+	width: 352px;
+}
+#body div#newsblog div.aside ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+#body div#newsblog div.aside ul li {
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+	float: left;
+	height: 165px;
+	margin: 23px 20px 0 0;
+	padding: 19px;
+	width: 260px;
+}
+#body div#newsblog div.aside ul li h2,
+#body div#newsblog div.sidebar div h2 {
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#body div#newsblog div.sidebar div h2 {
+	padding: 0 0 2px;
+}
+#body div#newsblog div.sidebar {
+	float: right;
+	padding: 17px 0 0;
+	width: 300px;
+}
+#body div#newsblog div.sidebar div {
+	padding: 23px 0 0;
+}
+#body div#newsblog div.sidebar div:first-child {
+	padding: 0;
+}
+#body div#newsblog div.sidebar div ul {
+	margin: 0;
+	padding: 0 0 0 16px;
+}
+#body div#newsblog div.sidebar div ul li a {
+	color: #7e868c;
+	line-height: 24px;
+	text-decoration: none;
+}
+#footer {
+	margin: 0 auto;
+	padding: 20px 0 0;
+	width: 940px;
+}
+#footer div {
+	overflow: hidden;
+	padding: 0 0 47px;
+}
+#footer div form {
+	float: left;
+	margin: 0;
+	width: 460px
+}
+#footer div form h2,
+#footer div div h2 {
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 7px;
+	text-transform: uppercase;
+}
+#footer div form label {
+	display: block;
+	overflow: hidden;
+	margin: 12px 0 0;
+}
+#footer div form label span {
+	display: block;
+	float: left;
+	height: 37px;
+	line-height: 37px;
+	margin: 0 13px 0 0;
+	padding: 0;
+	text-align: right;
+	width: 95px;
+}
+#footer div form label span.message {
+	vertical-align: top;
+}
+#footer div form label input {
+	border: 1px solid #d7d7d7;
+	color: #7E868C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0;
+	width: 350px;
+}
+#footer div form label textarea {
+	border: 1px solid #d7d7d7;
+	color: #7E868C;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 95px;
+	overflow: auto;
+	padding: 0;
+	resize: none;
+	width: 350px;
+}
+#footer div form input.send {
+	background: url(../images/interface.png) no-repeat;
+	border: none;
+	color: #085180;
+	cursor: pointer;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 12px;
+	height: 26px;
+	margin: 5px 0 0 108px;
+	padding: 0 0 2px;
+	text-transform: uppercase;
+	width: 53px;
+}
+#footer div div {
+	float: right;
+	padding: 0;
+	width: 460px;
+}
+#footer div div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer div div ul li {
+	border-top: 1px solid #d7d7d7;
+	overflow: hidden;
+	padding: 13px 0;
+}
+#footer div div ul li:first-child {
+	border: none;
+}
+#footer div div ul li  b {
+	display: block;
+	font-weight: normal;
+	float: left;
+	line-height: 24px;
+	width: 65px;
+}
+#footer div div ul li p {
+	float: left;
+	text-align: left;
+	width: 352px;
+}
+#footer div div ul li span {
+	display: block;
+	float: left;
+	line-height: 24px;
+}
+#footer div div ul li p,
+#footer div div ul li div {
+	color: #7E868C;
+	font-size: 14px;
+	float: left;
+	margin: 0 0 0 8px;
+	padding: 0;
+	width: 360px;
+}
+#footer div div ul li p a.email {
+	color: #7e868c;
+	font-weight: normal;
+}
+#footer div div ul li p a.email:hover {
+	color: #44505a;
+}
+#footer div div ul li div a {
+	display: block;
+	float: left;
+	height: 26px;
+	text-indent: -99999px;
+}
+#footer div div ul li div a#facebook {
+	background: url(../images/icons.png) no-repeat;
+	height: 25px;
+	width: 26px;
+}
+#footer div div ul li div a#twitter {
+	background: url(../images/icons.png) no-repeat 0 -60px;
+	margin: 0 0 0 13px;
+	width: 38px;
+}
+#footer div div ul li div a#googleplus {
+	background: url(../images/icons.png) no-repeat 0 -122px;
+	margin: 0 0 0 18px;
+	width: 26px;
+}
+#footer div div ul li div a#facebook:hover {
+	background: url(../images/icons.png) no-repeat 0 -25px;
+}
+#footer div div ul li div a#twitter:hover {
+	background: url(../images/icons.png) no-repeat 0 -86px;
+}
+#footer div div ul li div a#googleplus:hover {
+	background: url(../images/icons.png) no-repeat 0 -148px;
+}
+#footer p {
+	color: #acacac;
+	font-size: 12px;
+	padding: 0 0 25px;
+	text-align: center;
+}

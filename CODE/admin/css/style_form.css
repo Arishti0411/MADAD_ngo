@@ -1,0 +1,265 @@
+.admin_manages{
+	width: 900px;
+	margin: 0px auto;
+}
+hr{
+	border:2px solid #ddd;
+}
+.login_div{
+	margin:0px 30%;
+}
+.donation_div{
+	width: 900px;
+	margin: 0px auto;
+}
+.donation_div hr{
+	border:2px solid #ddd;
+}
+.donation_div div,
+.ngo_activities div{
+	width:800px;
+	margin:0px auto;
+}
+.donation_div div a,
+.ngo_activities div a{
+	font-size:3em;
+	text-decoration:none;
+	color:#666;
+	text-align:center;
+	padding:30px 0px;
+	font-family: 'Conv_BreeSerif-Regular';
+	width:230px;
+	letter-spacing:1px;
+	margin:20px 17px;
+	box-shadow:0px 0px 1px #dff;
+	background:#fff;
+	display:inline-block;
+}
+.donation_div div a:hover,
+.ngo_activities div a:hover{
+	background: #085180;
+	cursor:pointer;
+	color:#fff;
+}
+div.donor_details{
+	box-shadow:0px 0px 1px;
+	width:350px;
+	display:inline-table;
+	margin: 10px 15px;
+	padding: 10px 30px;
+}
+div.donor_details h4,
+div.donor_details h5,
+div.donor_details p{
+	padding:0px;
+	margin:0px;
+}
+div.donor_details h4,
+div.donor_details h5
+{
+	font-family:'Conv_BreeSerif-Regular';
+}
+div.donor_details h4{
+	font-size:1.6em;
+	letter-spacing:.5px;
+}
+div.donor_details h5{
+	letter-spacing:1px;
+	margin-bottom: 15px;
+}
+div.donor_details p{
+	height:80px;
+	overflow:scroll;
+	margin:0px;
+	padding:0px;
+}
+div.donor_details a{
+	font-size:1.5em;
+	text-decoration:none;
+	color:#666;
+	width:auto;
+	text-align:center;
+	padding:10px 20px;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing:1px;
+	margin: 0px;
+	position:relative;
+	float:right;
+	box-shadow:0px 0px 1px #dff;
+	background:#fff;
+}
+.login_div h3,
+.admin_manages h3,
+.donation_div h3,
+.ngo_activities h3{
+	font-size:2em;
+	font-family: 'Conv_BreeSerif-Regular';
+	color: #085180;
+	text-transform: uppercase;
+}
+.stored{
+	width:475px;
+	display:inline-table;
+	margin-left:50px;
+	height:inherit;
+	overflow:auto;
+}
+.stored h4{
+	font-size:1.3em;
+	font-family: 'Conv_BreeSerif-Regular';
+	color: #085180;
+	text-transform: uppercase;
+}
+.stored a div{
+	height:220px;
+	width:220px;
+	margin: 20px 7px;
+	display:inline-table;
+}
+.stored a div span{
+	background: url(../images/bg-pink.png) repeat-x;
+	font-family: 'Conv_BreeSerif-Regular';
+	width:95.5%;
+	padding:5px;
+	letter-spacing:1px;
+	display:block;
+	font-family: 'Conv_BreeSerif-Regular';
+	color: #e6e6e6;
+	font-size:1.1em;
+}
+.stored a div img{
+	height:inherit;
+	width:inherit;
+	background: url(../images/not-available.png);
+}
+.admin_manages form.user{
+	display:inline-table;
+	margin:30px 0;
+	width:auto;
+}
+form.user label,form.user label{
+	width: 100%;
+	color: #085180;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	display:block;
+}
+form.user input[type="email"],
+form.user input[type="number"],
+form.user input[type="date"],
+form.user input[type="time"],
+form.user input[type="text"],
+form.user input[type="password"],
+form.user input[type="file"],
+form.user textarea,
+form.user select{
+	font-size: 15px;
+	padding: 8px;
+	width: 350px;
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: .8px;
+	display: block;
+	margin: 15px 0px;
+}
+form.user input[type="number"]{
+	width:50px;
+}
+form.user input[type="file"]{
+	border:1px solid;
+}
+form.user input[type="submit"],a.back_button{
+	border: none;
+	color: #085180;
+	cursor: pointer;
+	font-family: 'Conv_BreeSerif-Regular';
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+form.user input[type="submit"]:hover{
+	border-right: solid 1px;
+}
+form.user input[type="submit"].forgot{
+	float:right;
+	margin-right:10px;
+}
+a.back_button{
+	float:left;
+	background:#ddd;
+	text-decoration:none;
+}
+a.back_button:hover{
+	border-left: solid 1px;
+}
+form.user a{
+	color:#085180;
+	padding-right:10px;
+}
+label.forgot{
+	text-align:right;
+}
+form.user textarea{
+	resize:none;
+}
+form.user select{
+	width:auto;
+}
+div.msg_sender,
+div.msg_content{
+	height:300px;
+	padding:15px 0px;
+	display:inline-table;
+}
+div.msg_sender{
+	width:300px;
+	overflow:scroll;
+}
+div.msg_content{
+	font-family: 'Conv_BreeSerif-Regular';
+	letter-spacing: 1px;
+	font-size:1.3em;
+	width:350px;
+	padding: 15px 30px;
+	float:right;
+	margin-left:50px;
+}
+div.msg_content div#msg_content{
+	color:#000;
+	height:200px;
+	width:310px;
+	overflow:scroll;
+	font-size:1em;
+	letter-spacing:.5px;
+	padding:15px;
+	border:1px solid #def;
+	background:#fff;
+}
+div#senders{
+	cursor:pointer;
+	border-bottom:1px solid;
+	font-family: 'Conv_BreeSerif-Regular';
+	width:250px;
+	background:#fff;
+	padding:10px 20px;
+}
+div#senders h4,
+div#senders h5{
+	margin:0px;
+	padding:0px;
+}
+div#senders h4{
+	font-size:1.8em;
+}
+div#senders h5{
+	letter-spacing:1px;
+}
+button#distribute{
+	float:right;
+	border:none;
+	font: 2em 'Conv_BreeSerif-Regular';
+	padding:5px 10px;
+	cursor:pointer;
+}
